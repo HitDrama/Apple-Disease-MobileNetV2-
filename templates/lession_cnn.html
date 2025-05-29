@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Plant Disease Detector</title>
+</head>
+<body style="text-align:center; font-family:sans-serif">
+    <h1>Phân loại bệnh lá cây</h1>
+    
+    <form method="POST" enctype="multipart/form-data">
+        {{ form.csrf_token }}
+        {{ form.file.label }}<br>
+        {{ form.file }}<br>
+        {% for error in form.file.errors %}
+            <span style="color:red">{{ error }}</span><br>
+        {% endfor %}
+        <br>
+        {{ form.submit }}
+    </form>
+
+    {% if prediction %}
+        <h2>Kết quả: {{ prediction }}</h2>
+        <p>Độ tin cậy: {{ confidence|round(2) }}%</p>
+        <img src="{{ user_image }}" width="300">
+    {% endif %}
+</body>
+</html>
