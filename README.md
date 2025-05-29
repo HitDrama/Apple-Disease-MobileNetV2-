@@ -77,7 +77,7 @@ Các lớp sau được thêm vào phía trên `base_model` để phù hợp v�
 
 ## Hiển thị Biểu đồ Huấn luyện/Kiểm định
 
-<img src="https://github.com/HitDrama/Apple-Disease-MobileNetV2-/blob/main/static/train/train-plant-disease.png" alt="Training Chart" width="45%"/>
+<img src="https://github.com/HitDrama/Apple-Disease-MobileNetV2-/blob/main/static/train/train-plant-disease.png" alt="Training Chart" width="100%"/>
 <img src="https://github.com/HitDrama/Apple-Disease-MobileNetV2-/blob/main/static/train/test.png" alt="Validation/Testing Chart" width="45%"/>
 
 
