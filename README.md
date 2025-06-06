@@ -81,4 +81,7 @@ Các lớp sau được thêm vào phía trên `base_model` để phù hợp v�
 <img src="https://github.com/HitDrama/Apple-Disease-MobileNetV2-/blob/main/static/train/test.png" alt="Validation/Testing Chart" width="45%"/>
 
 
-## Phát triển bởi Đặng Tố Nhân
+---
+
+👨‍💻 Người phát triển: Đặng Tố Nhân  
+🔧 Stack chính: Python · TensorFlow · Flask · Keras · HTML/CSS
